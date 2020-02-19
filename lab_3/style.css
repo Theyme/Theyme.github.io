@@ -7,7 +7,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #a9a9a9;
+  background-color: #0C6FB4;
 }
 
 body {
@@ -19,12 +19,14 @@ body {
 /* || typography */
 
 h1, h2, h3 {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-weight: 700 ;
   color: #2a2a2a;
 }
 
 p, input, li {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-weight: 500;
   color: #2a2a2a;
 }
 
@@ -96,6 +98,10 @@ nav li {
   flex: 1;
 }
 
+.container {
+  flex-direction: row | row | row | row;
+}
+
 nav a, nav span {
   display: inline-block;
   font-size: 2rem;
@@ -110,7 +116,8 @@ nav a, nav span {
 /* || main layout */
 
 main {
-  display: flex;
+  display: flex
+  ;
 }
 
 article, section {
