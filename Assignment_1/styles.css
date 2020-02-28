@@ -1,0 +1,161 @@
+/* || General setup */
+html {
+    font-size: 10px;
+    background-color: #C58BFF;
+    color: black;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #C58BFF;
+  }
+  
+
+  body {
+    width: 100%;
+    min-width: 800px;
+    margin: 0 auto;
+  }
+  
+/* || typography */
+
+.jobtitle{
+    font-size: large;
+    font-family: cursive;
+}
+
+.jobdesc{
+    font-size: large;
+    font-weight: 600;
+
+
+}
+
+.jobdone{
+    font-style: normal;
+    font-size: medium;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 960px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.job-req{
+    align-content: space-around;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.profile-image img{
+    width: inherit;
+    border: solid 1px whitesmoke;
+    border-radius: 4px;
+}
+
+.caption{
+    flex: 0 1 auto;
+    font-style: italic;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    align-content: center;
+}
+
+/* || header layout */
+.header{
+    background-color: #6632A1;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header h1{
+    font-size: 40px;
+
+}
+
+.profile-image{
+    flex: 0 1 auto;
+    width: 150px;
+
+}
+
+.profile-image p {
+    flex: 0 1 auto;
+}
+
+
+
+/* || main layout */
+
+
+.profile{
+    width: 200px;
+    flex-wrap: wrap;
+}
+
+.job-req{
+    background-color: white;
+    margin: 15px;
+    flex: 0 2 auto;
+}
+   
+.profile-image p{
+    background-color: white;
+    margin: 15px;
+    margin-right: auto;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+    width: 260px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 960px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo{
+    width: 100px;
+    padding: 15px;
+}
+
+@media screen and (max-width:1000px) {
+    .content{
+        justify-content: center;
+    }
+    .profile-image{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1 0 auto;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}

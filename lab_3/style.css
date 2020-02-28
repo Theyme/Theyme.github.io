@@ -19,13 +19,13 @@ body {
 /* || typography */
 
 h1, h2, h3 {
-  font-family: 'Oleo Script Swash Caps', cursive;
+  font-family: 'Simonetta', cursive;
   font-weight: 700 ;
   color: #2a2a2a;
 }
 
 p, input, li {
-  font-family: 'Oleo Script Swash Caps', cursive;
+  font-family: 'Simonetta', cursive;
   font-weight: 500;
   color: #2a2a2a;
 }
@@ -98,8 +98,14 @@ nav li {
   flex: 1;
 }
 
-.container {
-  flex-direction: row | row | row | row;
+.flex-container{
+  padding: 0;
+  width: 30px;
+  height: 10px ;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 nav a, nav span {
@@ -132,7 +138,6 @@ aside {
 
 aside a {
   display: block;
-  float: left;
   width: 50%;
 }
 
