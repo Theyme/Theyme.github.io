@@ -10,14 +10,7 @@ html {
     padding: 0;
     background-color: #C58BFF;
   }
-  
 
-  body {
-    width: 100%;
-    min-width: 800px;
-    margin: 0 auto;
-  }
-  
 /* || typography */
 
 .jobtitle{
@@ -55,7 +48,7 @@ html {
 .job-req{
     align-content: space-around;
     border-radius: 4px;
-    padding: 15px;
+    padding: 5px;
 }
 
 .profile-image img{
@@ -76,23 +69,26 @@ html {
 /* || header layout */
 .header{
     background-color: #6632A1;
-    margin-bottom: 0px;
+    margin-bottom: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     text-transform: uppercase;
     align-items: center;
     justify-content: space-around;
+    padding: 15px;
 }
 
 .header h1{
     font-size: 40px;
+    text-align: center;
 
 }
 
 .profile-image{
     flex: 0 1 auto;
-    width: 150px;
+    width: 175px;
+    margin-right: auto;
 
 }
 
@@ -112,18 +108,15 @@ html {
 
 .job-req{
     background-color: white;
-    margin: 15px;
     flex: 0 2 auto;
 }
    
 .profile-image p{
     background-color: white;
-    margin: 15px;
-    margin-right: auto;
+    margin: 10px;
     font-style: italic;
     font-size: medium;
     text-align: center;
-    width: 260px;
 }
 
 .wrapper{
