@@ -275,20 +275,11 @@
           let randomCountry;
           newOl.innerHTML="";
       // Random number generator using the Math.random function
-          let i = 0
-          while (Random25.length < 25){
+          for (i = 0; i < 25; i++){
             randomCountry = countries[Math.floor(Math.random() * countries.length)];
-            i++ 
-            if (Random25.includes(randomCountry)){
-              continue;
-              
-            }else{
-              Random25.push(randomCountry)
 
-            }
-
+            Random25.push(randomCountry)
           }
-
           unselected(Random25)
           Random25.forEach (function(element) {
             let newLi = document.createElement("li");
@@ -314,7 +305,20 @@
               unselect.push(countries[i])
             }
           }
-          
+          let i = 0
+          while (Random25.length < 25){
+            randomCountry = countries[Math.floor(Math.random() * countries.length)];
+            i++ 
+            if (Random25.includes(randomCountry)){
+              continue;
+              
+            }else{
+              Random25.push(randomCountry)
+
+            }
+
+          }
+
 
         console.log(unselect)            
         }
