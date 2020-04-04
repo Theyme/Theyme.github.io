@@ -13,6 +13,12 @@ h3 {
   line-height: 1.2
 }
 
+/*.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: white;
+  color: #333;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+  }*/
+
 /* End document default styles */
 .code {
   background-color: rgb(255, 231, 202);
